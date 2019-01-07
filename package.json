@@ -1,0 +1,28 @@
+{
+  "name": "npm-1337",
+  "version": "1.0.0",
+  "description": "my first npm module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owize/NPM-1337.git"
+  },
+  "author": "Uzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owize/NPM-1337/issues"
+  },
+  "homepage": "https://github.com/owize/NPM-1337#readme",
+  "dependencies": {
+    "cli-color": "^1.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "bin": {
+    "argv-modul": ".index.js"  
+ }
+}
